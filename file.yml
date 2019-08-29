@@ -1,0 +1,7 @@
+---
+- hosts: centos
+  remote_user: root
+
+  tasks:
+    - name: create new file
+      file:
